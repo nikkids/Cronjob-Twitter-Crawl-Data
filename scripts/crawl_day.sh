@@ -5,6 +5,7 @@ TWITTER_TOKEN="${TWITTER_TOKEN:-}"
 
 OUT_DIR="output"
 mkdir -p "$OUT_DIR"
+mkdir -p tweets-data/output
 
 WINDOW_HOURS=6
 
