@@ -25,7 +25,7 @@ while true; do
     break
   fi
 
-  fname="tweets-data/output/tweets_${SINCE_DATE}_w${i}.csv"
+  fname="output/tweets_${SINCE_DATE}_w${i}.csv"
 
   echo "Fetching window ${window_start} -> ${window_end}"
 
