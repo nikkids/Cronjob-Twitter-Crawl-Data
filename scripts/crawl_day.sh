@@ -30,7 +30,7 @@ while true; do
   echo "Fetching window ${window_start} -> ${window_end}"
 
   SEARCH='pemilu OR jokowi OR prabowo OR capres OR pilpres'
-  QUERY="${SEARCH} since:${window_start} until:${window_end} lang:id"
+  QUERY="${SEARCH} since:${SINCE_DATE} until:${UNTIL_DATE} lang:id"
 
   npx -y tweet-harvest@2.6.1 \
     -o "${fname}" \
