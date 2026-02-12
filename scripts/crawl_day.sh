@@ -9,8 +9,8 @@ mkdir -p tweets-data/output
 
 WINDOW_HOURS=6
 
-SINCE_DATE=$(date -u -d "yesterday" +"%Y-%m-%d")
-UNTIL_DATE=$(date -u +"%Y-%m-%d")
+SINCE_DATE=2019-04-21
+UNTIL_DATE=2019-04-22
 
 echo "Crawl day: since ${SINCE_DATE}, until ${UNTIL_DATE}"
 
